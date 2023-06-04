@@ -1,0 +1,5 @@
+nome=str(input("Digite um nome com sobrenome: ")).strip()
+nome1= nome.split()
+print(f"Prazer em te conhecer {nome}!!!")
+print(f"Primeiro nome: {nome1[0]} ")
+print(f"Ultimo nome:   {nome1[2]} ")
