@@ -1,5 +1,5 @@
 expr=str(input("Digite sua expressão: "))
-pilha=list
+pilha=[]
 for simb in expr:
     if expr==")":
         pilha.append("(")
