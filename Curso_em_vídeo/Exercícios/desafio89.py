@@ -27,5 +27,6 @@ while True:
         break
     if pergunta<=len(galera):
         print(f"As notas de {galera[pergunta][0]} são {galera[pergunta][1]}")
+    print()
 print()
 
