@@ -1,7 +1,9 @@
 def escreva(txt):
-    quantidade=len(txt)
+    quantidade=len(txt)+4
     print("-"*quantidade)
-    print(txt)
+    print(f"  {txt}")
     print("-"*quantidade)
 
-escreva(" Lucas ")
+escreva("Lucas")
+escreva("Curso em video")
+escreva("Gustavo Guanabara")
