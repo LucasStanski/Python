@@ -1,5 +1,0 @@
-number=input("Digite um número até 9999: ")
-print(f"Unidade: {number[0]} ")
-print(f"Dezena:  {number[1]} ")
-print(f"Centena: {number[2]} ")
-print(f"Milhar:  {number[3]} ")
